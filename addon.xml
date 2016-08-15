@@ -2,6 +2,7 @@
 <addon id="plugin.video.youtube2k" name="YouTube2k" version="0.0.1" provider-name="h0d3nt3uf3l,SLiX,imsodin,voodoo44">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.youtube-api" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
